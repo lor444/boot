@@ -1,0 +1,9 @@
+@import 'example-component-default';
+
+@media (min-width: 768px) { 
+	@import 'example-component-md-up';
+}
+
+@media (max-width: 768px) { 
+	@import 'example-component-md-down';
+}
